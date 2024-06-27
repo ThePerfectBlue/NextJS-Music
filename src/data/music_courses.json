@@ -77,7 +77,7 @@
       "description": "Create compelling electronic music with our course designed for beginners to advanced users.",
       "price": 169.99,
       "instructor": "Luke Harris",
-      "isFeatured": true,
+      "isFeatured": false,
       "image": "/courses/music-prod.jpg"
     },
     {
@@ -97,7 +97,7 @@
       "description": "Discover the techniques of blues guitar to add soul and depth to your playing.",
       "price": 189.99,
       "instructor": "Ethan Moore",
-      "isFeatured": true,
+      "isFeatured": false,
       "image": "/courses/blues.jpg"
     }
   ]

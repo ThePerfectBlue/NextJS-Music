@@ -43,11 +43,13 @@ const TestimonialCards = () => {
       <h2 className="text-3xl text-center font-bold mb-6 mt-5 z-10">
         Testimonials
       </h2>
-      <InfiniteMovingCards
-        items={musicSchoolTestimonials}
-        direction="left"
-        speed="slow"
-      />
+      <div className="w-full overflow-x-hidden">
+        <InfiniteMovingCards
+          items={musicSchoolTestimonials}
+          direction="left"
+          speed="slow"
+        />
+      </div>
     </div>
     // <div className="h-[40rem] w-full bg-white bg-grid-black/[0.2] dark:bg-black dark:bg-grid-white/[0.2] relative flex flex-col items-center justify-center overflow-hidden">
 

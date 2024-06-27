@@ -35,7 +35,7 @@ const WhyChooseUs = () => {
     },
   ];
   return (
-    <div>
+    <div className="m-0">
       <StickyScroll content={content} />
     </div>
   );

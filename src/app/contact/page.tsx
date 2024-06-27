@@ -2,7 +2,7 @@
 import React, { FormEvent, useState } from "react";
 import { BackgroundBeams } from "@/components/ui/background-beams";
 
-const page = () => {
+const ContactUsPage = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
@@ -47,4 +47,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default ContactUsPage;
